@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Active element centered inside 66dp safe zone (approx. x and y between 21 and 87) -->
+    <!-- Headphone Band -->
+    <path
+        android:pathData="M 32,56 A 22,22 0 0,1 76,56"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFD700"
+        android:fillColor="#00000000" />
+
+    <!-- Speaker outer cone suspension ring -->
+    <path
+        android:pathData="M 54,54 m -14,0 a 14,14 0 1,0 28,0 a 14,14 0 1,0 -28,0"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFD700"
+        android:fillColor="#15FFD700" />
+
+    <!-- Center gold core dome -->
+    <path
+        android:pathData="M 54,54 m -6,0 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0"
+        android:fillColor="#FFD700" />
+
+    <!-- Headphone ear pads -->
+    <path
+        android:pathData="M 26,51 L 26,63 C 26,65.8 28.2,68 31,68 L 31,51 Z"
+        android:fillColor="#FFD700" />
+    <path
+        android:pathData="M 82,51 L 82,63 C 82,65.8 79.8,68 77,68 L 77,51 Z"
+        android:fillColor="#FFD700" />
+
+    <!-- Soundwave seismic peaks in gold -->
+    <path
+        android:pathData="M 20,54 L 15,54"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFD700" />
+    <path
+        android:pathData="M 88,54 L 93,54"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFD700" />
+
+    <path
+        android:pathData="M 54,25 L 54,18"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FF9F00" />
+</vector>
